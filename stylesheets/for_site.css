@@ -162,17 +162,6 @@ article .marc
         {width: 100%; margin-left:20%; }
 
 #Ras_tech
-    {width: 45%; margin-top: 40%; font-size: 100%;}
-
-    #Ras_tech article
-        {padding: 0 3%; position: absolute; height: 16%;}
-        
-    #Ras_tech article:first-child {top: 15%;}
-    
-    #Ras_tech article:last-child {top: 64%;}
-        
-    #Ras_tech article img
-        {float: left; width: }
-        
-        #Ras_tech .bg
-            {z-index: -3; left: 0; top:0;}
+    {width: 45%; margin-top: 40%;}    
+#Ras_tech .bg
+    {z-index: -3; margin-top: 22%;}

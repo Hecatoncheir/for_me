@@ -1,0 +1,33 @@
+<img class="bg" src="images/main_content/ras_tech.png">
+        <!-- Будет использоваться в перспективе
+        <article>
+            <img src="images/tech_html5.png">
+            <p>Когда технологии развиваются быстро, приходиться больше думать о роли сайта в будущем, нежели о том как он бы выглядел когда интернет только появлялся.</p> 
+            <p></p>
+            <p>Каждый проект написанный на HTML5 сегодня, в будущем будет более конкурентоспособным, чем еще не забытый xhtml.</p>
+        </article>
+        
+        <article>
+            <img src="images/tech_ruby.png">
+            <span class="marc">Ruby on Rails</span>
+            <p>В рабое над проектом я использую Rails!</p>
+            <p></p>
+            <p><span class="marc">Rails</span> - это полноценный, многоуровневый фреймворк для построения веб-приложений, использующих базы данных, который основан на архитектуре Модель-Представление-Контроллер (Model-View-Controller, MVC).</p>
+        </article>
+        -->
+    </div>
+
+/* Будет использован в перспективе
+    #Ras_tech article
+        {padding: 0 3% 0 16%; position: absolute; height: 16%;}
+        
+    #Ras_tech article:first-child {top: 15%;}
+        #Ras_tech article:first-child img {width: 20%;}
+    
+    #Ras_tech article:last-child {top: 64%;}
+         #Ras_tech article:last-child img {width: 34%;}
+        
+    #Ras_tech article img
+        {position: absolute; left: 0%; top: 3%; z-index: -2;}
+*/
+    
