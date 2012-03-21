@@ -1,0 +1,178 @@
+#cool_bg {
+    position: fixed;
+    z-index: -5;
+    background: url(../images/back.jpg) no-repeat top center;
+    background-position: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/* Copyright */
+    body > footer {
+        display: block;
+        width:18%;
+        height: auto;
+        position: fixed;
+        bottom: 4%;
+        right: 5%;
+    }
+        
+        body > footer img {
+            width: 100%;
+            height: auto;
+        }
+        
+        
+/*Верхнее меню */
+header
+    {position:fixed; top:0; left:0; width: 29%; height: auto;}
+        
+header nav img
+    {width: 100%; height: auto; z-index: -1;}
+    
+/* Ссылки */
+        nav a {
+            z-index: 2;
+            opacity: 0.5;
+            position: absolute;
+            top: 12%;
+            -webkit-transition: all 160ms ease-in-out;
+            -moz-transition: all 160ms ease-in-out;
+            -o-transition: all 160ms ease-in-out;
+            transition: all 160ms ease-in-out;
+        }
+        
+        nav a img {width: 100%; height: auto; top:0;}
+        
+        nav a:hover {opacity: 1;}
+
+        #link_to_loin {
+            display: none;    
+        }
+        
+        
+        #link_to_ras {
+            left: 12%;
+            width: 9%;
+        }
+        
+        #link_to_blog {
+            left: 36%;
+            width: 10%;    
+        }
+        
+        #link_to_tech {
+            left: 60%;
+            width: 22%;    
+            top: 41%;
+        }
+            
+        #link_to_pro {
+            left: 73%;
+            width: 17%;
+            top: 6%;
+        }
+            
+#main {
+    position: absolute !important;
+    width:100%;
+    height: auto;
+    font-size: 14px !important;
+}
+        
+/* Паралакс */
+#parallax
+    {position:fixed;  width:100%; height:auto; top:18%;}
+    
+    #parallax li 
+        {list-style: none;}
+    #parallax img 
+        {width: 100%; height: auto;}
+    
+    #par_red {
+        width: 64%;
+        position: fixed;
+        left: 16%;
+        z-index: -1;
+    }
+
+    #par_black {
+        width: 66%;
+        left: 19%;
+        z-index: -1;
+        position: fixed;
+    }
+
+    
+.info 
+{position: relative; margin: 20% auto;}
+
+.info .bg
+    {width: 100%; height: auto;}   
+    
+    
+/* Обо мне */    
+#Ras
+    {width: 36%; margin-top: 15%;}    
+
+#Ras_about 
+    {width: 37%;}
+    
+    #Ras_about .bg
+        {margin-top:46%;}
+    
+#Ras_blog 
+    {width: 47%; margin-left: 28%; margin-bottom:0;}
+    
+    #Ras_blog .bg 
+        {z-index: -3; margin-top:12%;}
+
+
+/* Статьи */ 
+article h1 
+    {text-transform: uppercase; font-size: 100%; font-weight: bold;}
+    
+article {
+    z-index: 4;
+    width: 56%;
+    font-family: Arial;
+    font-size: 100% !important;
+    height: 40%;
+    position: absolute;
+    left: 14%;
+    top: 20%;
+    color: #fff;
+    line-height: 155%;
+    
+}
+    
+article .marc 
+    { color: #c24e44;}
+    
+    #link_to_open 
+        {position: absolute; width: 23%; right: 30%; z-index: 5; top: 8%;}
+        
+    #link_to_open .bg
+        {width: 100%;}
+        
+    #link_to_all_posts
+        {z-index: 5; margin-top: -4%; width: 15%;}
+        
+    #link_to_all_posts .bg
+        {width: 100%; margin-left:20%; }
+
+#Ras_tech
+    {width: 45%; margin-top: 40%; font-size: 100%;}
+
+    #Ras_tech article
+        {padding: 0 3%; position: absolute; height: 16%;}
+        
+    #Ras_tech article:first-child {top: 15%;}
+    
+    #Ras_tech article:last-child {top: 64%;}
+        
+    #Ras_tech article img
+        {float: left; width: }
+        
+        #Ras_tech .bg
+            {z-index: -3; left: 0; top:0;}
