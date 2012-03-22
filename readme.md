@@ -8,4 +8,4 @@
 
 Страница в [Google plus](https://plus.google.com/b/102175148928550851201/)
 
-![Alt text](/apple-touch-icon.png "rasart")
+![Alt text](https://github.com/Rasarts/for_me/raw/master/apple-touch-icon.png "rasart")
