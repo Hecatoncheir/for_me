@@ -44,12 +44,7 @@ header nav img
         
         nav a img {width: 100%; height: auto; top:0;}
         
-        nav a:hover {opacity: 1;}
-
-        #link_to_loin {
-            display: none;    
-        }
-        
+        nav a:hover {opacity: 1;}        
         
         #link_to_ras {
             left: 12%;
@@ -149,19 +144,59 @@ article {
 article .marc 
     { color: #c24e44;}
     
-    #link_to_open 
+    #post_link_to_open 
         {position: absolute; width: 23%; right: 30%; z-index: 5; top: 8%;}
         
-    #link_to_open .bg
+    #post_link_to_open .bg
         {width: 100%;}
         
-    #link_to_all_posts
+    #post_link_to_all_posts
         {z-index: 5; margin-top: -4%; width: 15%;}
         
-    #link_to_all_posts .bg
+    #post_link_to_all_posts .bg
         {width: 100%; margin-left:20%; }
+        
 
 #Ras_tech
     {width: 45%; margin-top: 40%;}    
-#Ras_tech .bg
-    {z-index: -3; margin-top: 22%;}
+    
+    #Ras_tech .bg
+        {z-index: -3; margin-top: 22%;}
+        
+    #Ras_tech article {display:none;}
+        
+#Ras_pro
+    {width: 45%; margin-top: 40%;}    
+        
+    #Ras_pro .bg
+        {z-index: -3; margin-top: 35%; margin-left:0; width: 64%;}
+
+    #pro_link_to_all
+        {position: absolute; width: 46%; left:0; top: 11%;}
+        
+    #pro_link
+        {position: absolute; width: 46%; left:22%; bottom:-4%;}
+        
+    #pto_link_to_last {
+        position: absolute;
+        width:54%;
+        left: 3%;
+        top: 45%;
+    }
+    
+    #pto_link_to_last img
+        {width:100%;}
+        
+#Ras_pro article {
+    width: 41%;
+    height: 40%;
+    top: 65%;
+    left: 59%;
+}
+    
+    #Ras_pro article p {clear: both; float: left;  font-weight: bold; color: black; line-height: 100%;}
+    #Ras_pro article a {position: static; text-decoration: none; color: black;}
+    
+    #Ras_pro article h1
+        {color: #c24e44; text-transform:none;}
+    

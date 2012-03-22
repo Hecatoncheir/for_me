@@ -38,32 +38,34 @@
   <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
        chromium.org/developers/how-tos/chrome-frame-getting-started -->
   <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
-  <header>
-    <nav><img src="images/top_menu/nav_bg.png">
-        <a href="#Ras_about" id="link_to_ras"><img src="images/top_menu/link_to_ras.png"></a>
-        <a href="#Ras_blog" id="link_to_blog"><img src="images/top_menu/link_to_blog.png"></a>
-        <a href="#Ras_tech" id="link_to_tech"><img src="images/top_menu/link_to_tech.png"></a>
-        <a href="#" id="link_to_pro"><img src="images/top_menu/link_to_pro.png"></a>
-        <a href="#" id="link_to_loin">внезапно</a>
+  
+  <header><!-- Верхнее меню -->
+    <nav><img src="images/nav/nav_bg.png">
+        <a href="#Ras_about" id="link_to_ras"><img alt="Обо мне" src="images/nav/link_to_ras.png"></a>
+        <a href="#Ras_blog" id="link_to_blog"><img alt="Блог" src="images/nav/link_to_blog.png"></a>
+        <a href="#Ras_tech" id="link_to_tech"><img alt="Технологии" src="images/nav/link_to_tech.png"></a>
+        <a href="#Ras_pro" id="link_to_pro"><img alt="Проекты" src="images/nav/link_to_pro.png"></a>
     </nav>
   </header>
 
-    <ul id="parallax">
+    <ul id="parallax"> <!-- Фон -->
       <li id="par_red"><img src="images/par_red.png"></li>
       <li id="par_black"><img src="images/par_black.png"></li>
     </ul>
     
+<!-- Основное содержание -->
 <div role="main" id="main">
     
-    <div class="info" id="Ras"><img class="bg" src="images/ras_bg.png"></div>
+    <!-- Первоначальная заставка -->
+    <div class="info" id="Ras"><img alt="Rasart - Современный Web-Дизайн" class="bg" src="images/ras_bg.png"></div>
     
-    <div class="info" id="Ras_about"><img class="bg" src="images/main_content/ras_about.png"></div>
+    <!-- Обо мне -->
+    <div class="info" id="Ras_about"><img alt="Здравствуйте, Я Ras, web-дизайнер и frontend developer. Я занимаюсь разработкой сайтов. Всегда стремлюсь к результату" class="bg" src="images/main_content/ras_about.png"></div>
     
-    <div class="info" id="Ras_blog"><img class="bg" src="images/main_content/ras_blog.png">
+    <!-- Последняя запись -->
+    <div class="info" id="Ras_blog"><img alt="Rasart - Современный Web-Дизайн" class="bg" src="images/main_content/ras_blog.png">
     
-        <a href="#" id="link_to_open">
-            <img class="bg" src="images/link_to_open.png">
-        </a>
+        <a href="#" id="post_link_to_open"><img alt="Обсудить" class="bg" src="images/nav/post_link_to_open.png"></a>
 
         <article>
             <h1>Мой новый сайт...</h1>
@@ -76,25 +78,52 @@
 
     </div>
     
-    <div class="info" id="link_to_all_posts">
+    <div class="info" id="post_link_to_all_posts"><!-- Ссылка на все посты -->
         <a href="#">
-            <img class="bg" src="images/link_to_all_posts.png">
+            <img alt="Все записи" class="bg" src="images/nav/post_link_to_all_posts.png">
         </a>
     </div>
     
-    <div id="Ras_tech" class="info"><img class="bg" src="images/main_content/ras_tech.png"></div>
+    <!-- Технологии -->
+    <div id="Ras_tech" class="info"><img class="bg" src="images/main_content/ras_tech.png">
+        <article>
+            <p>Когда технологии развиваются быстро, приходиться больше думать о роли сайта в будущем, нежели о том как он бы выглядел когда интернет только появлялся.</p> 
+            <p></p>
+            <p>Каждый проект написанный на HTML5 сегодня, в будущем будет более конкурентоспособным, чем еще не забытый xhtml.</p>
+        </article>
+        
+        <article>
+            <span class="marc">Ruby on Rails</span>
+            <p>В рабое над проектом я использую Rails!</p>
+            <p></p>
+            <p><span class="marc">Rails</span> - это полноценный, многоуровневый фреймворк для построения веб-приложений, использующих базы данных, который основан на архитектуре Модель-Представление-Контроллер (Model-View-Controller, MVC).</p>
+        </article>
+    </div>
+    
+    <!-- Проекты -->
+    <div id="Ras_pro" class="info">
+        <a href="#" id="pro_link_to_all"><img alt="Все проекты" class="bg" src="images/nav/pro_link_to_all.png"></a>
+        <img alt="Сделанный проекты" class="bg" src="images/main_content/ras_pro.png">
+        <a href="#" id="pto_link_to_last"><img alt="Самый новый проект" src="images/pro/pro_img.png">
+            <article>  
+                <h1>Личный кабинет Российской Государственой Библиотеки</h1>
+                <p>Ссылка: <a href="#"><span class="marc">www</span></a></p>
+                <p>Ооо это действительно здорово выглядит и прекрассно работает!</p>
+            </article>
+        <a href="#" id="pro_link"><img alt="Обсудить" class="bg" src="images/nav/pro_link.png"></a>
+    </div>
     
     
 </div>
   
-  <footer><img src="images/copyright.png"></footer>
+<footer><img alt="© Rasart 2012  web-дизайн" src="images/copyright.png"></footer>
 
 
   <!-- JavaScript at the bottom for fast page loading -->
 
   <!-- scripts concatenated and minified via build script -->
   <script src="javascripts/plugins.js"></script>
-  <script src="javascripts/script.js"></script>
+  <!--<script src="javascripts/script.js"></script>-->
   <!-- end scripts -->
 
 </body>
